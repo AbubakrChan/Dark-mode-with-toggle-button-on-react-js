@@ -1,13 +1,10 @@
-/* Define our color variables */
 
 html {
   --primary-color: #fff;
   --secondary-color: #282c34;
 }
 
-/* Redifine our color variables if the data-theme attr
-  value is "dark
-*/
+
 
 html[data-theme="dark"] {
   --primary-color: #282c34;
@@ -46,10 +43,6 @@ html[data-theme="dark"] {
   }
 }
 
-
-/* CSS styling for our switch */
-/* This switch was styled with the help of w3schools */
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_switch */
 .switch {
   position: relative;
   display: inline-block;
@@ -101,7 +94,6 @@ input:checked+.slider:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
 .slider.round {
   border-radius: 34px;
 }
